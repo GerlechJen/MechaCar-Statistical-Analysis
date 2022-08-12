@@ -1,4 +1,6 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+
+## Overview
 
 In this project, statisticall tests and analysis were performed using R. A company,  AutosRUs, wants to utilize data analytics in all their decision making as they believe that will make them have very successful automobile launches. 
 
