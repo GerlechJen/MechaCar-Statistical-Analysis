@@ -19,6 +19,8 @@ Below are the summary results from the linear regression:
 
 ![image1](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/deliverable1_results.png)
 
+In performing this analysis, I aimed to answer some three specific questions. The questions and the answers  to them after my analysis are gien below:
+
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance. 
