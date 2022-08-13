@@ -24,7 +24,8 @@ In performing this analysis, I aimed to answer some three specific questions. Th
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance. 
-![image2]()
+
+![image2](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)
 
 ![image3](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
