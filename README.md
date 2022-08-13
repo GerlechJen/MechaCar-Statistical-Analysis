@@ -26,7 +26,7 @@ In performing this analysis, I aimed to answer some three specific questions. Th
 The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance. 
 ![image2]()
 
-![image3]()
+![image3](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
 # Question
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
