@@ -15,6 +15,16 @@ In my first ever project I will be working on AutosRUs’ newest prototype, the 
 4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, I'll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
-
+Below are the summary results from the linear regression:
 
 ![image1](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/deliverable1_results.png)
+
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance. 
+
+2. Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not zero. This is because, the p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further implies that the slope of the linear model is not zero.
+
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the R-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined corectly by the model. Thus, the linear model can be considered effective.
