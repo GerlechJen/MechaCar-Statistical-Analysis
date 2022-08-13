@@ -15,3 +15,6 @@ In my first ever project I will be working on AutosRUs’ newest prototype, the 
 4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, I'll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
+
+
+![image1](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/deliverable1_results.png)
