@@ -70,3 +70,16 @@ Lot 2 has a similar outcome with a sample mean of 1500.02 and a p-Value of 0.61.
 For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower than the significance level of 0.05. Therefore, we can reject the null hypothesis that                 this sample mean and the presumed population mean are not statistically different.
 
 
+## Study Design: MechaCar vs Competition
+Next, I would want to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+For this analysis , the metrics I want to test are highway fuel efficiency and horse power as these are metrics that are of high interest to consumers.
+The Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. The Alternative Hypothesis is that they are not all the same.
+
+I would use ANOVA test to complete this analysis for both types of fuel efficiencies and horse power . I would use the ggplot2 library to show the spread between different cars using a boxplot.
+
+I would need highway fuel efficiency and horsepower data from 50 individual cars to create a sample size of data for each car in the class type. So if there are 10 cars in each class type, I would have 500 data points collected for each fuel efficiency and horsepower.
+
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
