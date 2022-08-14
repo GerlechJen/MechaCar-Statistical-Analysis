@@ -37,42 +37,45 @@ Using the Suspension_Coil.csv dataset which contains the results from three manu
 
 ![image3](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
-From the results of the analysis I seeked to answerr these questions:
+From the results of the analysis I seeked to answer this question:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-When looking at all the manufacturing lots in total, the variance of the coils is 62.29356 PSI, which is within the 100 PSI variance requirement.
-However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications.  Therefore, Lot 3 on its own does not meet the design specifications. 
+When looking at all the manufacturing lots in total, the variance of the coils is 62.29356 PSI, which is within the 100 PSI variance requirement. However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications. Therefore, Lot 3 on its own does not meet the design specifications. 
 
 ## T-Tests on Suspension Coils
+T-Tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. This could be deduced using the four different p-values generated. 
+
 ### T-Test across all lots 
 Below is the summary of the t-test results across all lots:
 
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/All_Lots.png)
 
-The results above show that the mean of the sample is 1498.78 With a p-Value of 0.06, which is higher than the significance level of 0.05. Therefore, there isn't enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+The result above shows that the mean of the sample is 1498.78 with a p-Value of 0.06, which is higher than the significance level of 0.05. Therefore, there isn't enough evidence to support rejecting the null hypothesis that there is a statistical difference between the manufacturing lots' mean and the population mean of 1,500 PSI. 
 
-### T-Test across Lot 1
+### T-Test across Lot 1 
+Below is the result of the t-test for lot 1:
+
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot1.png)
 
-Lot 1 had a mean of exactly 1500 with a p-Value of 1. Therefore, we cannot reject the null hypothesis that             there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+Lot 1 had a mean of 1500 and a p-Value of 1. Therefore, we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1,500 PSI.
 
 ### T-Test across Lot 2
+Below is the result of the t-test for lot 2:
+
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot2.png)
 
-Lot 2 has a similar outcome with a sample mean of 1500.02 and a p-Value of 0.61. Thus the null hypothesis cannot be rejected,                and the sample mean and the population mean of 1500 are statistically similar.
+Lot 2 has quite a similar outcome as lot 1 with a sample mean of 1500.02 and a p-Value of 0.61. Thus the null hypothesis cannot be rejected.
 
 ### T-Test across Lot 3 
+Below is the result of the t-test for lot 3:
+
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot3.png)
 
-For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower than the significance level of 0.05. Therefore, we can reject the null hypothesis that                 this sample mean and the presumed population mean are not statistically different.
+For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower than the significance level of 0.05. Therefore, we can reject the null hypothesis that     this sample mean and the presumed population mean are not statistically different.
 
 
 ## Study Design: MechaCar vs Competition
-Next, I would want to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
-For this analysis , the metrics I want to test are highway fuel efficiency and horse power as these are metrics that are of high interest to consumers.
-The Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. The Alternative Hypothesis is that they are not all the same.
+Next, I would want to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. For this analysis , the metrics I want to test are highway fuel efficiency and horse power as these are metrics that are of high interest to consumers. The Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. The Alternative Hypothesis is that they are not all the same.
 
 I would use ANOVA test to complete this analysis for both types of fuel efficiencies and horse power . I would use the ggplot2 library to show the spread between different cars using a boxplot.
 
