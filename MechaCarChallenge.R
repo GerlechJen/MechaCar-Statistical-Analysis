@@ -22,3 +22,16 @@ total_summary <- Suspension %>% summarize(Mean_PSI=mean(PSI),
 #create a lot summary
 
 lot_summary <- Suspension %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Var_PSI=var(PSI), Std_Dev_PSI=sd(PSI))
+
+# Perform t.test() to determine if the PSI across all lots is statistically different from the population mean of 1,500 PSI.
+?t.test()
+t.test(Suspension$PSI,mu = 1500)
+
+# Peform t-test on Lot 1
+t.test(subset(Suspension,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
+
+# Peform t-test on Lot 2
+t.test(subset(Suspension,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
+
+# Peform t-test on Lot 3
+t.test(subset(Suspension,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
