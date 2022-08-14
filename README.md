@@ -47,3 +47,12 @@ When looking at all the manufacturing lots in total, the variance of the coils i
 However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications.  Therefore, Lot 3 on its own does not meet the design specifications. 
 
 ## T-Tests on Suspension Coils
+T-Test across all lots 
+
+T-Test across Lot 1
+
+T-Test across Lot 2
+
+T-Test across Lot 3 
+
+
