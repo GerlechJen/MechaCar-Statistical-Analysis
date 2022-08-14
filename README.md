@@ -41,3 +41,9 @@ The R-squared value is what indicates whether the linear model predicts the mpg 
 # Question
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+When looking at all the manufacturing lots in total, the variance of the coils is 62.29356 PSI, which is within the 100 PSI variance requirement.
+However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications.  Therefore, Lot 3 on its own does not meet the design specifications. 
+
+## T-Tests on Suspension Coils
