@@ -48,11 +48,15 @@ However, when we are considering each lot individually, Lot 1 and Lot 2 are with
 
 ## T-Tests on Suspension Coils
 T-Test across all lots 
+![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/All_Lots.png)
 
 T-Test across Lot 1
+![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot1.png)
 
 T-Test across Lot 2
+![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot2.png)
 
 T-Test across Lot 3 
+![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot3.png)
 
 
