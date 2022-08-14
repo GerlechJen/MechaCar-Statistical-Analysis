@@ -22,19 +22,22 @@ In performing this analysis, I aimed to answer some three specific questions. Th
 
 The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and AWD have p-Values that indicate a random amount of variance. 
 
-2. Is the slope of the linear model considered to be zero? Why or why not?
-The slope of the linear model is not zero. This is because, the p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further implies that the slope of the linear model is not zero.
+2. Is the slope of the linear model considered to be zero? Why or why not?  
+
+The p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis which means the slope is not zero. Also, the linear regression showed that some of the independent variables had a significant effect on the dependent variables which further implies that the slope of the linear model is not zero.
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the R-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined corectly by the model. Thus, the linear model can be considered effective.
+
+The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the r-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined by this model. Thus, the linear model can be considered effective.
 
 ## Summary Statistics on Suspension Coils
+Using the Suspension_Coil.csv dataset which contains the results from three manufacturing lots, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The dataset contains 150 different vehicle IDs, their lot and PSI levels. Two summary statistics tables were created to show the suspension coil’s PSI continuous variable across all manufacturing lots, and then the mean, median, variance, and standard deviation for each lot. The tables are shown below:
 
 ![image2](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)
 
 ![image3](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
-# Question
+From the results of the analysis I seeked to answerr these questions:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
