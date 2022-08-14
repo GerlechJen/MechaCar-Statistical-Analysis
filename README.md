@@ -2,29 +2,25 @@
 
 ## Overview
 
-In this project, statistical tests and analysis were performed using R. A company,  AutosRUs, wants to utilize data analytics in all their decision making as they believe that will make them have very successful automobile launches. 
+In this project, statistical tests and analysis were performed for an automobile company called AutosRUs using R. AutosRUs, wants to utilize data analytics in all their decision making as they believe that will make them have very successful automobile launches. As the primary analyst for the data analytics team of the company, I am responsible for  performing  retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing.In my role, I ensure that analysis I perform contains a statistical backbone, a quantitative metric and clear interpretation of the results. I provide summary statistics for different variables, visualizations for different datasets and interpretation of statistical test results. Also, using my critical thinking skills, I propose my own study designs, hypotheses and analysis workflow that will make autosRUs manufacturing processes better. 
 
-As the primary analyst for the data analytics team of the company, I am responsible for  performing  retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing.
- 
-I have to ensure that analysis I perform contains a statistical backbone, a quantitative metric and clear interpretation of the results. Summary statistics will also be provided for different variables, visualizations for different datasets and interpretation of statistical test results. Also, using my critical thinking skills, I will propose my own study design,  hypotheses and analysis workflow that will make autosRUs manufacturing processes even better. 
-
-In my first ever project I will be working on AutosRUs’ newest prototype, the MechaCar. It is suffering from production troubles that are blocking the manufacturing team’s progress. My task here is to review the production data for insights that may help the manufacturing team. I will be performing these specific tasks:
-1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, I'll write a summary interpretation of the findings.
+In my first ever project I will be working on AutosRUs’ newest prototype, the MechaCar. It is suffering from production troubles that are blocking the manufacturing team’s progress. I have two datsets containing information related to the miles per gallon and the suspension coils of the MechaCar. My task here is to review the production data for insights that may help the manufacturing team. I will be performing these specific tasks:
+1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
+2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
+3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
+4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+For each statistical analysis, I'll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
-Below are the summary results from the linear regression:
+Using the miles per gallon dataset which contains mpg test results for 50 prototype MechaCars, I preformed a multiple linear regression to see if the dependent variable miles per gallon (mpg) can be predicted using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables. Below is the summary results from the linear regression:
 
 ![image1](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/deliverable1_results.png)
 
-In performing this analysis, I aimed to answer some three specific questions. The questions and the answers  to them after my analysis are gien below:
+In performing this analysis, I aimed to answer some three specific questions. The questions and the answers obtained to them after my analysis are given below:
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance. 
-
+The vehicle length, and vehicle ground clearance provided a non-random amount of variance to the mpg values in the dataset. These variables had very small p-values which implies they have a high level of significance on miles per gallon on the MechaCar prototype. On the other hand, the vehicle weight, spoiler angle, and AWD have p-Values that indicate a random amount of variance. 
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 The slope of the linear model is not zero. This is because, the p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further implies that the slope of the linear model is not zero.
