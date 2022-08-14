@@ -47,16 +47,26 @@ When looking at all the manufacturing lots in total, the variance of the coils i
 However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications.  Therefore, Lot 3 on its own does not meet the design specifications. 
 
 ## T-Tests on Suspension Coils
-T-Test across all lots 
+### T-Test across all lots 
+Below is the summary of the t-test results across all lots:
+
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/All_Lots.png)
+
+The results above show that the mean of the sample is 1498.78 With a p-Value of 0.06, which is higher than the significance level of 0.05. Therefore, there isn't enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 T-Test across Lot 1
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot1.png)
 
+Lot 1 had a mean of exactly 1500 with a p-Value of 1. Therefore, we cannot reject the null hypothesis that             there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+
 T-Test across Lot 2
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot2.png)
 
+Lot 2 has a similar outcome with a sample mean of 1500.02 and a p-Value of 0.61. Thus the null hypothesis cannot be rejected,                and the sample mean and the population mean of 1500 are statistically similar.
+
 T-Test across Lot 3 
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot3.png)
+
+For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower than the significance level of 0.05. Therefore, we can reject the null hypothesis that                 this sample mean and the presumed population mean are not statistically different.
 
 
