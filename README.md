@@ -83,7 +83,7 @@ I would need highway fuel efficiency and horsepower data from 50 individual cars
 
 What metric or metrics are you going to test?
 What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
+What statistical test would you use to test the hypothesis? And why? We want to know the p value????
 What data is needed to run the statistical test?
 
 
