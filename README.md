@@ -75,7 +75,7 @@ For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower tha
 
 
 ## Study Design: MechaCar vs Competition
-Next, I would want to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. For this analysis , the metrics I want to test are highway fuel efficiency and horse power as these are metrics that are of high interest to consumers. The Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. The Alternative Hypothesis is that they are not all the same.
+Next, I would want to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. For this analysis , the metrics I want to test are highway fuel efficiency and horse power as these are metrics that are of high interest to consumers. The Null Hypothesis is that all of the different classes of cars for Mechacar and its competitors have the same highway fuel efficienies and horse power. The Alternative Hypothesis is that the highway fuel efficiency and horsepower of MechaCar vehicles is higher than that of the competitors..
 
 I would use ANOVA test to complete this analysis for both types of fuel efficiencies and horse power . I would use the ggplot2 library to show the spread between different cars using a boxplot.
 
