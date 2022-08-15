@@ -84,6 +84,9 @@ The Alternative Hypothesis is that the highway fuel efficiency and horsepower of
 I would use ANOVA test to complete this analysis for both types of fuel efficiencies and horse power . I would use the ggplot2 library to show the spread between different cars using a boxplot.
 
 I would use two-sample t-test. 
+(unpaired??/ , two-tailed???)
+
+The goal of this t-test would be to reject the null hypotheses
 
 I would need highway fuel efficiency and horsepower data from 50 individual cars to create a sample size of data for each car in the class type. So if there are 10 cars in each class type, I would have 500 data points collected for each fuel efficiency and horsepower.
 
