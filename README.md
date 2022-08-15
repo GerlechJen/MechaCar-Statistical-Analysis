@@ -78,17 +78,16 @@ For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower tha
 ## Study Design: MechaCar vs Competition
 Next, I would want to design a statistical study to compare vehicle performance of the MechaCars against other manufacturers' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
 
-comparing vehicle performance of the MechaCars against other manufacturers’ vehicles.
-
 The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as other manufacturers' vehicles, the vehicles will have the same highway fuel efficiency.
 
 The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehicles is different from that of competitors' vehicles.
+
+I would need 50 highway fuel efficiency data each from MechaCars prototype and from comparable models of the other competitors. The population groups will have almost the same standard deviation. The data will have two columns. One column will be for vehicle type from the different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
 
 I would use analysis of variance(ANOVA) test to complete analysis for highway fuel efficiency of MecharCar vehicles and its competitors vehicles. I would use the ggplot2 library to show the spread between the highway fuel efficiency of different cars using a boxplot.
 
 I used the ANOVA test because it is able to compare the means of more than 2 groups and determine whetehr there is a significant difference in at least one sample. I don't want to make pairwise comparisons. 
 
-I would need 50 highway fuel efficiency data each from MechaCars and from comparable models of the other competitors. The population groups will have almost the same standard deviation. The data will have two columns. One column will be for vehicle type from the different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
 
 ----
 
