@@ -13,7 +13,7 @@ In my first ever project I will be working on AutosRUs’ newest prototype, the 
 For each statistical analysis, I will write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
-Using the miles per gallon dataset which contains mpg test results for 50 prototype MechaCars, I preformed a multiple linear regression to see if the dependent variable miles per gallon (mpg) can be predicted using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables. Below is the summary results from the linear regression:
+Using the miles per gallon dataset which contains mpg test results for 50 prototype MechaCars, I peformed a multiple linear regression to see if the dependent variable miles per gallon (mpg) can be predicted using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables. Below is the summary results from the linear regression:
 
 ![image1](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/deliverable1_results.png)
 
@@ -25,11 +25,11 @@ The vehicle length, and vehicle ground clearance provided a non-random amount of
 
 2. Is the slope of the linear model considered to be zero? Why or why not?  
 
-The p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis which means the slope is not zero. Also, the linear regression showed that some of the independent variables had a significant effect on the dependent variables which further implies that the slope of the linear model is not zero.
+The p-Value of 5.35e-11 is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis which means the slope is not zero. Aside from that, the linear regression showed that some of the independent variables had a significant effect on the dependent variables which further implies that the slope of the linear model is not zero.
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the r-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined by this model. Thus, the linear model can be considered effective.
+The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the r-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined by this model. Thus, the linear model can be considered quite effective.
 
 ## Summary Statistics on Suspension Coils
 Using the Suspension_Coil.csv dataset which contains the results from three manufacturing lots, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The dataset contains 150 different vehicle IDs, their lot and PSI levels. Two summary statistics tables were created to show the suspension coil’s PSI continuous variable across all manufacturing lots, and then the mean, median, variance, and standard deviation for each lot. The tables are shown below:
@@ -76,13 +76,13 @@ For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower tha
 
 
 ## Study Design: MechaCar vs Competition
-Next, I would want to design a statistical study to compare vehicle performance of the MechaCars against other manufacturers' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
+Next, I would want to design a statistical study to compare vehicle performance of the MechaCars against four other manufacturers' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
 
-The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as other manufacturers' vehicles, the vehicles will have the same highway fuel efficiency.
+The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as the  manufacturers' vehicles, all the vehicles will have the same highway fuel efficiency.
 
-The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehicles is different from that of competitors' vehicles.
+The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehicles is different from that of comparable competitors' vehicles.
 
-I would need 50 highway fuel efficiency data each from MechaCars prototype and from comparable models of the other competitors. The population groups will have almost the same standard deviation. The data will have two columns. One column will be for vehicle type from the different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
+I would need 50 highway fuel efficiency data each from MechaCars prototype and from comparable models of the other four competitors. The population groups will have almost the same standard deviation. The dataset will have two columns and 250 rows of different vehicles. One column will be for vehicle type from the five different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
 
 I would use analysis of variance(ANOVA) test to complete analysis for highway fuel efficiency of MecharCar vehicles and its competitors vehicles. I would use the ggplot2 library to show the spread between the highway fuel efficiency of different cars using a boxplot.
 
