@@ -50,14 +50,14 @@ Below is the summary of the t-test results across all lots:
 
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/All_Lots.png)
 
-The result above shows that the mean of the sample is 1498.78 with a p-Value of 0.06, which is higher than the significance level of 0.05. Therefore, there isn't enough evidence to support rejecting the null hypothesis that there is a statistical difference between the manufacturing lots' mean and the population mean of 1,500 PSI. 
+The result above shows that the mean of the sample is 1498.78 with a p-Value of 0.06, which is higher than the significance level of 0.05. Therefore, we fail to reject the null hypothesis that there is no statistical difference between the manufacturing lots' mean and the population mean of 1,500 PSI. 
 
 ### T-Test across Lot 1 
 Below is the result of the t-test for lot 1:
 
 ![image](https://github.com/GerlechJen/MechaCar_Statistical_Analysis/blob/main/Images/Lot1.png)
 
-Lot 1 had a mean of 1500 and a p-Value of 1. Therefore, we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1,500 PSI.
+Lot 1 had a mean of 1,500 and a p-Value of 1. Therefore, we fail to reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1,500 PSI.
 
 ### T-Test across Lot 2
 Below is the result of the t-test for lot 2:
