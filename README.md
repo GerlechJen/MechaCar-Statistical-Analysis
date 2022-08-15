@@ -78,17 +78,15 @@ For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower tha
 
 
 ## Study Design: MechaCar vs Competition
-Next, I would want to design a statistical study to compare vehicle performance of the MechaCar against four other manufacturing companies' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
+Next, I would want to design a statistical study to compare vehicle performance of the MechaCar against four other manufacturing companies' vehicles. For this analysis , the metric I want to test is the city fuel efficiency as it is of high interest to consumers. 
 
-The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as the other manufacturers' vehicles, all the vehicles will have the same highway fuel efficiency.
+The Null Hypothesis is that if MechaCar vehicle is used at the same rate as the other manufacturers' vehicles, all the vehicles will have the same city fuel efficiency.
 
-The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehicles is different from that of comparable competitors' vehicles.
+The Alternative Hypothesis is that the city fuel efficiency of MechaCar vehicles is different from that of comparable competitors' vehicles.
 
-I would need 50 highway fuel efficiency data each from MechaCars prototype and from comparable models of the other four competitors. The population groups will have almost the same standard deviation. The dataset will have two columns and 250 rows of different vehicles. One column will be for vehicle type from the five different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
+I would need 50 city fuel efficiency data of comparable models each from the four manufacturing competitors and the other 50 from of our MechaCar prototype. These five population groups will have almost the same standard deviation. The dataset will thus have two columns and 250 rows. One column will be for vehicle type from the five different automobile companies. The second column will be the corresponding values of city fuel efficiency.
 
-I would use analysis of variance(ANOVA) test to complete analysis for highway fuel efficiency of MecharCar vehicles and its competitors vehicles. I would use the ggplot2 library to show the spread between the highway fuel efficiency of different cars using a boxplot.
-
-I used the ANOVA test because it is able to compare the means of more than 2 groups and determine whetehr there is a significant difference in at least one sample. I don't want to make pairwise comparisons. 
+I would use analysis of variance(ANOVA) test to complete analysis for city fuel efficiency of the dataset. I would further use the ggplot2 library to show the spread between the city fuel efficiency of different cars using a boxplot. I used the ANOVA test because it is able to compare the means of more than 2 groups and determine whether there is a significant difference in at least one sample. I did not want to make pairwise comparisons. 
 
 
 ----
