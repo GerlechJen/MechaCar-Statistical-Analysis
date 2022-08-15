@@ -2,14 +2,15 @@
 
 ## Overview
 
-In this project, statistical tests and analysis were performed for an automobile company called AutosRUs using R. AutosRUs, wants to utilize data analytics in all their decision making as they believe that will make them have very successful automobile launches. As the primary analyst for the data analytics team of the company, I am responsible for  performing  retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing.In my role, I ensure that analysis I perform contains a statistical backbone, a quantitative metric and clear interpretation of the results. I provide summary statistics for different variables, visualizations for different datasets and interpretation of statistical test results. Also, using my critical thinking skills, I propose my own study designs, hypotheses and analysis workflow that will make autosRUs manufacturing processes better. 
+In this project, statistical tests and analysis were performed for an automobile company called AutosRUs using R. AutosRUs, wants to utilize data analytics in all their decision making as they believe that will make them have very successful automobile launches. As the primary analyst for the data analytics team of the company, I am responsible for  performing  retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing. In my role, I ensure that analysis I perform contains a statistical backbone, a quantitative metric and clear interpretation of the results. I provide summary statistics for different variables, visualizations for different datasets and interpretation of statistical test results. Also, using my critical thinking skills, I propose my own study designs, hypotheses and analysis workflow that will make autosRUs manufacturing processes better. 
 
 In my first ever project I will be working on AutosRUs’ newest prototype, the MechaCar. It is suffering from production troubles that are blocking the manufacturing team’s progress. I have two datsets containing information related to the miles per gallon and the suspension coils of the MechaCar. My task here is to review the production data for insights that may help the manufacturing team. I will be performing these specific tasks:
 1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
 3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
 4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
-For each statistical analysis, I'll write a summary interpretation of the findings.
+
+For each statistical analysis, I will write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
 Using the miles per gallon dataset which contains mpg test results for 50 prototype MechaCars, I preformed a multiple linear regression to see if the dependent variable miles per gallon (mpg) can be predicted using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables. Below is the summary results from the linear regression:
@@ -85,17 +86,9 @@ The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehic
 
 I would use analysis of variance(ANOVA) test to complete analysis for highway fuel efficiency of MecharCar vehicles and its competitors vehicles. I would use the ggplot2 library to show the spread between the highway fuel efficiency of different cars using a boxplot.
 
-I used the ANOVA test because it is able to compare the means of more than 2 groups and determine whetehr there is a significant difference in at least one sample. We don't want to make pairwise comparisons. 
+I used the ANOVA test because it is able to compare the means of more than 2 groups and determine whetehr there is a significant difference in at least one sample. I don't want to make pairwise comparisons. 
 
-I would need highway fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. So if there are 10 cars in each class type, I would have 500 data points collected for each fuel efficiency and horsepower.
-
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why? We want to know the p value????
-What data is needed to run the statistical test?
-
-with almost the same standard deviation for the population groups
-A The data needed will have two columns. One column will be for vehicles from the different automobile companies. The second column will be the corresponding values of highway fuel efficiencies. 
+I would need 50 highway fuel efficiency data each from MechaCars and from comparable models of the other competitors. The population groups will have almost the same standard deviation. The data will have two columns. One column will be for vehicle type from the different automobile companies. The second column will be the corresponding values of highway fuel efficiencies.
 
 ----
 
