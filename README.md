@@ -41,7 +41,9 @@ Using the Suspension_Coil.csv dataset which contains the results from three manu
 From the results of the analysis I seeked to answer this question:
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-When looking at all the manufacturing lots in total, the variance of the coils is 62.29356 PSI, which is within the 100 PSI variance requirement. However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications. Therefore, Lot 3 on its own does not meet the design specifications. 
+When looking at all the manufacturing lots in total, the variance of the coils is 62.29356 PSI, which is within the 100 PSI variance requirement. Therefore, the design specification is met. 
+
+However, when we are considering each lot individually, Lot 1 and Lot 2 are within the design specifications with variances of 0.9795918 and 7.4693878 respectively. Lot 3 on the other hand has a very high variance of 170.2861224 which exceeds the manufacturing specifications. Therefore, Lot 3 on its own does not meet the design specifications. 
 
 ## T-Tests on Suspension Coils
 T-Tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. This could be deduced using the four different p-values generated. 
@@ -76,9 +78,9 @@ For Lot 3 the sample mean is 1496.14 and the p-Value is 0.042 which is lower tha
 
 
 ## Study Design: MechaCar vs Competition
-Next, I would want to design a statistical study to compare vehicle performance of the MechaCars against four other manufacturers' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
+Next, I would want to design a statistical study to compare vehicle performance of the MechaCar against four other manufacturing companies' vehicles. For this analysis , the metric I want to test is the highway fuel efficiency as it is of high interest to consumers. 
 
-The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as the  manufacturers' vehicles, all the vehicles will have the same highway fuel efficiency.
+The Null Hypothesis is that if vehicle from MechaCars is used at the same rate as the other manufacturers' vehicles, all the vehicles will have the same highway fuel efficiency.
 
 The Alternative Hypothesis is that the highway fuel efficiency of MechaCar vehicles is different from that of comparable competitors' vehicles.
 
