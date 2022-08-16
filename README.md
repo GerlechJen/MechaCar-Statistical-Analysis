@@ -29,7 +29,7 @@ The p-Value of 5.35e-11 is much smaller than the assumed significance level of 0
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the r-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined by this model. Thus, the linear model can be considered quite effective.
+The R-squared value is what indicates whether the linear model predicts the mpg of the MechaCar. For this linear model, the r-squared value was 0.7149 which means 71.5% of all mpg predictions will be determined by this model. Although the prediction is not perfect it is not too bad either,thus the linear model can be considered quite effective.
 
 ## Summary Statistics on Suspension Coils
 Using the Suspension_Coil.csv dataset which contains the results from three manufacturing lots, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. The dataset contains 150 different vehicle IDs, their lot and PSI levels. Two summary statistics tables were created to show the suspension coil’s PSI continuous variable across all manufacturing lots, and then the mean, median, variance, and standard deviation for each lot. The tables are shown below:
